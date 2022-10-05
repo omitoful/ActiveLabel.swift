@@ -238,6 +238,7 @@ typealias ElementTuple = (range: NSRange, element: ActiveElement, type: ActiveTy
             break
         @unknown default:
             break
+            
         }
         
         return avoidSuperCall
